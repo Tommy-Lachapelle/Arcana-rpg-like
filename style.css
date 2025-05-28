@@ -15,7 +15,7 @@ body {
   grid-template-rows: auto 140px;
   gap: 16px;
   width: 1100px;
-  margin: 40px auto;
+  margin: 40px auto; 
   border: 7px double #555;
   background-color: #121212;
 }
@@ -194,4 +194,8 @@ button:focus {
   margin-top: 20px;
   font-size: 30px;
   color: #fff;
+}
+
+figure {
+    text-align: center;
 }

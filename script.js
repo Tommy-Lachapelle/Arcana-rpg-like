@@ -175,5 +175,6 @@ async function getRandomMonster() {
   }
 }
 
+
 buildInterface();
 getRandomMonster();
