@@ -167,7 +167,9 @@ async function getRandomMonster() {
     enemyHp = monster.hit_points || 100;
     updateStats();
     updateEnemySprite(monster.type);
-  } catch (err) {
+  } 
+    /* fait avec l'aide de l'IA, sert a déboguer plus facilement "utilisation de F12 par exemple" */
+    catch (err) {
     document.getElementById('enemyStats').textContent = "Erreur de chargement.";
     console.error(err);
   }
