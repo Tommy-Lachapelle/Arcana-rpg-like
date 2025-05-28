@@ -27,7 +27,6 @@ body {
   flex-direction: column;
   gap: 16px;
 }
-
 .character-card,
 .enemy-info {
   background-color: #222;
@@ -43,6 +42,7 @@ body {
   height: 200px;
   object-fit: contain;
   margin-bottom: 10px;
+  transform: scaleX(-1);
 }
 
 .character-card strong,
